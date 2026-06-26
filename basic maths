@@ -85,6 +85,7 @@
 //        }
 //    }
 //}
+//                                    Count All Divisors
 //package com.company;
 //import java.util.ArrayList;
 //
@@ -100,5 +101,27 @@
 //        System.out.println(sam);
 //    }
 //}
+//                                                    Armstrong  number
+//package com.company;
+//import java.util.ArrayList;
 //
+//public class Main {
+//    public static void main(String[] args) {
+//        int n=37;
+//        int realn=n;
+//        int number=0;
+//        int digits =String.valueOf(n).length();
+//        for(int i=1;n>0;i++){
+//            int lastdigit=n%10;
+//            number+=Math.pow(lastdigit,digits);
+//            n=n/10;
+//        }
+//        if(realn==number){
+//            System.out.println("Armstrong number");
+//        }
+//        else{
+//            System.out.println("Not a Armstrong no.");
+//        }
+//    }
+//}
 
