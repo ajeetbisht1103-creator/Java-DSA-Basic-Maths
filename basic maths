@@ -64,3 +64,24 @@
 //
 //    }
 //}
+//                                           Prime number Check
+//package com.company;
+//import java.util.ArrayList;
+//
+//public class Main {
+//    public static void main(String[] args) {
+//        ArrayList<Integer> sam=new ArrayList<>();
+//        int n=10;
+//        for(int i=1;i<=n;i++){
+//            if(n%i==0){
+//                sam.add(i);
+//            }
+//        }
+//        if (sam.size()==2){
+//            System.out.println("It is a prime number");
+//        }
+//        else{
+//            System.out.println("It isn't a prime number");
+//        }
+//    }
+//}
