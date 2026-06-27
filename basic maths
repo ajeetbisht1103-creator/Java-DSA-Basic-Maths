@@ -161,3 +161,20 @@ package com.company;
 //        }
 //    }
 //}
+//                                                       Armstrong number using second method
+package com.company;
+
+public class Main {
+    public static void main(String[] args) {
+    int n=20;
+    int n2=40;
+    int gcd =0;
+    for(int i=Math.min(n,n2);i>=1;i--){
+        if ((n%i==0) && (n2%i==0)){
+            gcd=i;
+            break;
+            }
+        }
+        System.out.println(gcd);
+    }
+}
