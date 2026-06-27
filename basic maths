@@ -178,3 +178,11 @@ package com.company;
 //        System.out.println(gcd);
 //    }
 //}
+//
+//                                                         Euclidean Algorithm 
+//                    Modulus Version:
+//If b = 0, then GCD(a, b) = a
+//Otherwise, GCD(a, b) = GCD(b, a mod b)
+//                  Subtraction Version:
+//        If a = b, then GCD(a, b) = a
+//Otherwise, GCD(a, b) = GCD(a - b, b) [for a > b]
